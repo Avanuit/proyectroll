@@ -34,7 +34,9 @@ class _ActivityScreenState extends State<ActivityScreen> {
                             title: const Text('All notifications'),
                             leading: Radio(
                               value: 0,
+                              // ignore: deprecated_member_use
                               groupValue: _notificationFilter,
+                              // ignore: deprecated_member_use
                               onChanged: (value) {
                                 setState(() {
                                   _notificationFilter = value as int;

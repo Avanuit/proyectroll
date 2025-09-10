@@ -34,29 +34,29 @@ class _ReelsScreenState extends State<ReelsScreen> {
                 ),
               ),
               // User info
-              Positioned(
+              const Positioned(
                 bottom: 20,
                 left: 16,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
+                    Text(
                       '@username',
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 8),
-                    const Text(
+                    SizedBox(height: 8),
+                    Text(
                       'Video description goes here...',
                       style: TextStyle(color: Colors.white),
                     ),
-                    const SizedBox(height: 8),
+                    SizedBox(height: 8),
                     Row(
                       children: [
-                        const Icon(Icons.music_note, color: Colors.white, size: 16),
-                        const SizedBox(width: 4),
+                        Icon(Icons.music_note, color: Colors.white, size: 16),
+                        SizedBox(width: 4),
                         Text(
                           'Original audio - username',
                           style: TextStyle(color: Colors.white),

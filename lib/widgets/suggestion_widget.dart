@@ -14,7 +14,7 @@ class SuggestionWidget extends StatelessWidget {
         backgroundImage: NetworkImage(user.imageUrl),
       ),
       title: Text(user.username),
-      subtitle: Text('Suggested for you'),
+      subtitle: const Text('Suggested for you'),
       trailing: TextButton(
         onPressed: onFollow,
         child: const Text('Follow'),

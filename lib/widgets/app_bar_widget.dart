@@ -7,10 +7,10 @@ class InstagramAppBar extends StatelessWidget implements PreferredSizeWidget {
   final bool showBackButton;
 
   const InstagramAppBar({
-    Key? key,
+    super.key,
     this.title,
     this.showBackButton = false,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
